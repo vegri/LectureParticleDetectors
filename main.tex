@@ -1,0 +1,68 @@
+\documentclass{article}
+
+\usepackage{cite}
+\usepackage[square, comma, numbers, sort&compress]{natbib}
+\usepackage{wrapfig}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{placeins}
+% \usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{capt-of}
+\usepackage{array}
+\usepackage{subcaption}
+\usepackage{here}
+\usepackage[labelfont=bf, format=plain, font=it]{caption}
+\usepackage[english]{babel}
+
+
+%kein Zeileneinzug
+\parindent=0pt
+
+\begin{document}
+
+
+\section{Interaction of particles with matter}
+\graphicspath{{bilder/1-1/}}
+	\subsection{Interaction of charged particles}
+		\input{1-1-InteractionOfChargedParticles}
+			\subsubsection{Bethe-Bloch-Formel}
+				\input{1-1-1-BetheFormula}
+			\subsubsection{Landau distribution}
+				\input{1-1-2-LandauDistribution}
+			\subsubsection{Bragg curve}
+				\input{1-1-3-BraggCurve}
+			\subsubsection{Delta electrons}
+				\input{1-1-4-DeltaElectrons}
+			\subsubsection{Energy loss of electrons and positrons}
+				\input{1-1-5-EnergyLossOfElectronsAndPositrons}
+			\subsubsection{Bremsstrahlung}
+				\input{1-1-6-Bremsstrahlung}
+
+\section{Gas Detectors}
+\graphicspath{{bilder/3-1/}}
+\input{3-GasDetectors} 
+	\subsection{Number of electron ion pairs}
+		\input{3-1-NumberOfElectronIonPairs}
+	\subsection{Free charge carriers in gases}
+		\input{3-2-FreeChargeCarriersInGases}
+% 	\subsection{Freie Ladungsträger in Gasen: Diffusion}
+% 		\input{3-3-Diffusion}
+% 	\subsection{Rekombinatin und Elektronanlagerung}
+% 		\input{3-4-RekombinationUndElektronanlagerung}
+% 	\subsection{Elektronendrift in elektrischen Feldern}
+% 		\input{3-5-ElektrondriftInElektrischenFeldern}
+% 	\subsection{Elektronendrift in elektrischen und magnetischen Feldern}
+% 		\input{3-6-ElektrondriftInElUMagFeldern}
+% 	\subsection{Gasverstärkung}
+% 		\input{3-7-Gasverstaerkung}
+
+
+\end{document}
